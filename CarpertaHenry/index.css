@@ -1,0 +1,23 @@
+img {
+    width: 20px;
+    height: 20px;
+}
+#lupa {
+    width:50px ;
+}
+.lupaclase {
+    height: 100px;
+}
+.ancho200px{
+    width: 200px;
+}
+.BotonRojo{
+    background-color: brown;
+    color:aqua ;
+    font-weight: 600;
+}
+.BotonAzul{
+    background-color: blue;
+    color: black;
+    font-weight: 1000;
+}
