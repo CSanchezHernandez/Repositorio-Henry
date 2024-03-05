@@ -1,0 +1,17 @@
+.BotonRojo{
+    background-color: brown;
+    color:aqua ;
+    font-weight: 600;
+}
+.BotonAzul{
+    background-color: blue;
+    color: black;
+    font-weight: 1000;
+}
+.BotonRojo:hover{
+    background-color: black;
+    color: green;
+    cursor: pointer;
+    font-weight:1000;
+    
+}

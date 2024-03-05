@@ -1,0 +1,10 @@
+.titulo {
+    background-color: green;
+    color: black;
+}
+.titulo:hover{ 
+    background-color: black;
+    color: green;
+    cursor: pointer;
+    
+}
