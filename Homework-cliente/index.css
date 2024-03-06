@@ -1,0 +1,169 @@
+body{
+    width: 1920px;
+    height: 1150px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+header{   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#cajarosada{
+    width: 813px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #FD1EBD;
+    margin-top: 71px;
+    margin-bottom: 48px;
+}
+
+#cajaamarilla{
+    width: 633px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #FFFD38;
+}
+
+#caja-grande{
+    width: 725px;
+    height: 746px;
+    flex-shrink: 0;
+    border-left: 2px solid white;
+    margin-left: 61px;
+    padding-left: 71px;
+    
+}
+
+#caja-grande h1{
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 50.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Inter", sans-serif;
+}
+
+#caja-grande span{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 289.846px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#practice{
+
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 163.445px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 110px;
+    
+}
+
+#design{
+    color: #fff;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#circulo-designed{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+
+
+}
+
+#circulo-designed img{
+    width: 55px;
+    height: 55px;
+    margin: 17px;
+    position: relative;
+    bottom: 5px;
+}
+
+#autor{
+    color:#FFFD38 ;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+#caja-autor{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    
+    margin-top: 45px;
+}
+
+#caja-autor img{
+    width: 60px;
+    height: 60px;
+
+}
+
+#ui{
+
+    position:relative;
+    bottom:54px ;
+
+}
+
+#cuatro{
+    color: #fff;
+
+    font-family: 'Sevilla', sans-serif;
+    
+    font-size: 225px;
+    font-style: normal;
+    font-weight: 240;
+    line-height: normal;
+}
+
+#caja-del-4{
+    border:2px solid #FD1EBD;
+    width: 320px;
+    height: 426px;
+    display: flex;
+    position: relative;
+    right: 135px;
+    top: 100px;
+}
+
+#caja-palabras-numero{
+    display: flex;
+}
+
+#izq{
+    width: 58.063px;
+    height: 41.556px;
+    transform: rotate(-30deg);
+    flex-shrink: 0;
+}
+#drh{
+    width: 58.063px;
+    height: 41.556px;
+    flex-shrink: 0;
+}
+
