@@ -3,7 +3,7 @@ body{
     height: 1150px;
     background-color: black;
     color: white;
-    border: 2px solid white;
+    
 }
 
 header{   
@@ -11,6 +11,11 @@ header{
     flex-direction: column;
     align-items: flex-end;
 }
+footer{ 
+display: flex;
+justify-content: end;
+}
+
 
 #cajarosada{
     width: 813px;
@@ -131,24 +136,17 @@ header{
 }
 
 #cuatro{
-    color: #fff;
-
-    font-family: 'Sevilla', sans-serif;
-    
-    font-size: 225px;
-    font-style: normal;
-    font-weight: 240;
-    line-height: normal;
+height: 180px;
+width: 125px;
 }
 
 #caja-del-4{
-    border:2px solid #FD1EBD;
     width: 320px;
     height: 426px;
     display: flex;
     position: relative;
-    right: 135px;
-    top: 100px;
+    right: 150px;
+    top: 150px;
 }
 
 #caja-palabras-numero{
@@ -160,10 +158,57 @@ header{
     height: 41.556px;
     transform: rotate(-30deg);
     flex-shrink: 0;
+
 }
 #drh{
     width: 58.063px;
     height: 41.556px;
     flex-shrink: 0;
+    position: relative;
+    bottom:60px ;
+    
 }
+#caja-del-new{
+    
+    width: 434px;
+    height: 163px;
+    position: relative;
+    top: 330px; 
+    right: 310px;
+}
+
+#new{
+    
+    width: 273px;
+    height: 31px;
+    position: relative;
+    left: 190px;
+    top: 80px ;
+}
+#new span{
+    color:white ;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 31px;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+#linea{
+    width: 121.746px;
+    height: 33.835px;
+    background-color: #FFFD38;
+    position: relative;
+    bottom: 59px;
+    z-index: -1;
+}
+
+#sol{
+    position: relative;
+    bottom: 29px;
+    margin-right: 81px;
+}
+
 
